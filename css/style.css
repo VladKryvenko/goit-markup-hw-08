@@ -811,7 +811,7 @@ header::after{
 	color: rgba(117, 117, 117, 0.5);
 }
 
-.modal-form__icon-wrapper{
+.modal-form__wrapper{
 	position: relative;
 	margin-bottom: 10px;
 }
