@@ -811,6 +811,11 @@ header::after{
 	color: rgba(117, 117, 117, 0.5);
 }
 
+.modal-form__textarea:focus::placeholder{
+	font-size: 14px;
+	line-height: 1.14;
+}
+
 .modal-form__wrapper{
 	position: relative;
 	margin-bottom: 10px;
