@@ -361,11 +361,11 @@ address {
   transform: scaleX(1);
 }
 
-.current {
+.navigation-list__link--current {
   color: var(--accent-color);
 }
 
-.current::after {
+.navigation-list__link--current::after {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -627,7 +627,7 @@ footer {
   width: 100%;
 }
 
-.logo-bottom {
+.logo--bottom {
   display: block;
   color: #FFFFFF;
   margin: 0 0 20px;
