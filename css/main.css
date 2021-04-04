@@ -77,11 +77,11 @@ address {
 }
 
 .logo {
+  font-size: 26px;
+  line-height: 1.19;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
   margin: 0 93px 0 0;
