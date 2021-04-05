@@ -4,6 +4,7 @@
 }
 
 .filter-list{
+	display: flex;
 	justify-content: center;
 	margin-bottom: 50px;
 }
@@ -35,6 +36,7 @@
 }
 
 .projects-list{
+	display: flex;
 	margin-top: -30px;
 	margin-left: -30px;
 	flex-wrap: wrap;
@@ -79,7 +81,7 @@
 	color: var(--secondary-text-color);
 }
 
-.projects__img-wrapper{
+.projects-list__wrapper{
 	position: relative;
 	overflow: hidden;
 }

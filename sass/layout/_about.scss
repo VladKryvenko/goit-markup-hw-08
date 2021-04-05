@@ -2,20 +2,21 @@
 	padding-bottom: 94px;
 }
 
-.img-list{
+.about-list{
+	display: flex;
 	flex-wrap: wrap;
 	margin-left: -30px;
 	margin-top: -30px;
 }
 
-.img-list__item{
+.about-list__item{
 	position: relative;
 	margin-left: 30px;
 	margin-top: 30px;
 	flex-basis: calc(100% / 3 - 30px);
 }
 
-.img-list__wrapper{
+.about-list__wrapper{
 	position: absolute;
 	background: rgba(47, 48, 58, 0.8);
 	width: 100%;
@@ -23,7 +24,7 @@
     padding: 27px
 }
 
-.img-list__text{
+.about-list__text{
 	color: #ffffff;
 	font-weight: bold;
 	font-size: 14px;

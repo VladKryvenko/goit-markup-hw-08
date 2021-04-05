@@ -8,7 +8,7 @@
 	position: absolute;
 }
 
-.principles-icon__container{
+.principles-list__container{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -17,7 +17,7 @@
 	background: #F5F4FA;
 }
 
-.principles__secondary-header{
+.principles-list__title{
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
@@ -26,7 +26,7 @@
 	margin-bottom: 10px;
 }
 
-.principles__text{
+.principles-list__text{
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
@@ -42,5 +42,6 @@
 }
 
 .principles-list{
+	display: flex;
 	justify-content: center;
 }

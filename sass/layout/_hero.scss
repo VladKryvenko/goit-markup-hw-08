@@ -1,13 +1,11 @@
 .hero{
 	width: 100%;
-}
-
-.hero-bg-wrap{
 	max-width: 1600px;
 	margin: 0 auto;
 	background-image: linear-gradient(180deg, rgba(47,48,58,0.4) 0%, rgba(47,48,58,0.4) 100%), url(../images/hero-bg.jpg);
 
-	.flex-container{
+	.wrap{
+		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;

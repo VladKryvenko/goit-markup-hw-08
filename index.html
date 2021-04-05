@@ -11,7 +11,7 @@
 </head>
 <body>
 	<header>
-		<div class="wrap header-wrap flex-container">
+		<div class="wrap header-wrap">
 			<nav class="navigation">
 				<a href="index.html" class="logo link"><span class="logo__first-part">Web</span>Studio</a>
 				<ul class="navigation-list list">
@@ -44,54 +44,52 @@
 			</ul>
 		</div>
 	</header>
-	<section class="hero">
-		<div class="hero-bg-wrap">
-			<div class="wrap flex-container">
-				<h1 class="hero__header">Эффективные решения для вашего бизнеса</h1>
-				<button type="button" class="hero__button" data-modal-open>Заказать услугу</button>
-			</div>
-		</div>
-	</section>
 	<main>
+		<section class="hero">
+				<div class="wrap">
+					<h1 class="hero__header">Эффективные решения для вашего бизнеса</h1>
+					<button type="button" class="hero__button" data-modal-open>Заказать услугу</button>
+				</div>
+		</section>
 		<section class="principles">
 			<div class="wrap">
 				<h2 class="primary-header visually-hidden">Наши принципы</h2>
-				<ul class="principles-list list flex-container">
+				<ul class="principles-list list">
 					<li class="principles-list__item">
-						<div class="principles-icon__container">
+						<div class="principles-list__container">
 							<svg class="principles__icon" width="70" height="70">
 								<use href="images/sprite.svg#icon-antenna"></use>
 							</svg>
 						</div>
-						<h3 class="principles__secondary-header">Внимание к деталям</h3>
-						<p class="principles__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+						<h3 class="principles-list__title">Внимание к деталям</h3>
+						<p class="principles-list__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
 					</li>
 					<li class="principles-list__item">
-						<div class="principles-icon__container">
+						<div class="principles-list__container">
 							<svg class="principles__icon" width="70" height="70">
 								<use href="images/sprite.svg#icon-clock"></use>
 							</svg>
 						</div>
-						<h3 class="principles__secondary-header">Пунктуальность</h3>
-						<p class="principles__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+						<h3 class="principles-list__title">Пунктуальность</h3>
+						<p class="principles-list__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
 					</li>
 					<li class="principles-list__item">
-						<div class="principles-icon__container">
+						<div class="principles-list__container">
 							<svg class="principles__icon" width="70" height="70">
 								<use href="images/sprite.svg#icon-diagram"></use>
 							</svg>
 						</div>
-						<h3 class="principles__secondary-header">Планирование</h3>
-						<p class="principles__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+						<h3 class="principles-list__title">Планирование</h3>
+						<p class="principles-list__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
 					</li>
 					<li class="principles-list__item">
-						<div class="principles-icon__container">
+						<div class="principles-list__container">
 							<svg class="principles__icon" width="70" height="70">
 								<use href="images/sprite.svg#icon-astronaut"></use>
 							</svg>
 						</div>
-						<h3 class="principles__secondary-header">Современные технологии</h3>
-						<p class="principles__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+						<h3 class="principles-list__title">Современные технологии</h3>
+						<p class="principles-list__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
 					</li>
 				</ul>
 			</div>
@@ -99,32 +97,32 @@
 		<section class="about">
 			<div class="wrap">
 				<h2 class="primary-header">Чем мы занимаемся</h2>
-				<ul class="img-list list flex-container">
-					<li class="img-list__item"> 
-						<img src="./images/index/img1.jpg" class="img-list__img" alt="coding">
-						<div class="img-list__wrapper">
-							<p class="img-list__text">Десктопные приложения</p>
+				<ul class="about-list list">
+					<li class="about-list__item"> 
+						<img src="./images/index/img1.jpg" class="about-list__img" alt="coding">
+						<div class="about-list__wrapper">
+							<p class="about-list__text">Десктопные приложения</p>
 						</div>
 					</li>
-					<li class="img-list__item">
-						<img src="./images/index/img2.jpg" class="img-list__img" alt="mobile development">
-						<div class="img-list__wrapper">
-							<p class="img-list__text">Мобильные приложения</p>
+					<li class="about-list__item">
+						<img src="./images/index/img2.jpg" class="about-list__img" alt="mobile development">
+						<div class="about-list__wrapper">
+							<p class="about-list__text">Мобильные приложения</p>
 						</div>
 					</li>
-					<li class="img-list__item">
-						<img src="./images/index/img3.jpg" class="img-list__img" alt="tablet development">
-						<div class="img-list__wrapper">
-							<p class="img-list__text">Дизайнерские решения</p>
+					<li class="about-list__item">
+						<img src="./images/index/img3.jpg" class="about-list__img" alt="tablet development">
+						<div class="about-list__wrapper">
+							<p class="about-list__text">Дизайнерские решения</p>
 						</div>
 					</li>
 				</ul>
 			</div>	
 		</section>
 		<section class="team">
-			<div class="team-list-wrap wrap">
+			<div class="wrap">
 				<h2 class="primary-header">Наша команда</h2>
-				<ul class="team-list list flex-container">
+				<ul class="team-list list">
 					<li class="team-list__item">
 						<img src="./images/index/Igor.jpg" class="team-list__img" alt="man">
 						<div class="team-list__wrapper">
@@ -279,7 +277,7 @@
 		<section class="clients">
 			<div class="wrap">
 				<h2 class="primary-header">Постоянные клиенты</h2>
-				<ul class="clients-list list flex-container">
+				<ul class="clients-list list">
 					<li class="clients-list__item">
 						<a href="#" class="clients-list__link link">
 							<svg class="clients-list__icon" width="44" height="49">
@@ -327,7 +325,7 @@
 		</section>
 	</main>
 	<footer>
-		<div class="wrap footer-container">
+		<div class="footer wrap">
 			<div class="footer__left-part">
 				<a href="index.html" class="logo logo--bottom link"><span class="logo__first-part">Web</span>Studio</a>
 				<address>
@@ -346,7 +344,7 @@
 			</div>
 			<div class="footer__right-part">
 				<h4 class="right-part__header">Присоединяйтесь</h4>
-				<ul class="footer__social-container list">
+				<ul class="social-container list">
 					<li class="social-container__item">
 						<a href="#" class="social-container__link link">
 							<svg class="social-container__icon" width="20" height="20">
