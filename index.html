@@ -26,6 +26,11 @@
 					</li>
 				</ul>
 			</nav>
+			<button class="menu-button" type="button" data-menu-button>
+				<svg class="menu-icon" width="40px" height="40px">
+					<use href="images/sprite.svg#icon-menu"></use>
+				</svg>
+			</button>
 			<ul class="header-contacts list">
 				<li class="header-contacts__item">
 					<a href="mailto:info@devstudio.com" class="header-contacts__link link">
@@ -43,8 +48,59 @@
 				</li>
 			</ul>
 		</div>
+		<div class="mobile-menu" data-menu>
+			<button type="button" class="menu-close-btn" data-menu-close>
+				<svg class="menu-close-icon" width="19" height="19">
+					<use href="images/sprite.svg#icon-Vector"></use>
+				</svg>
+			</button>
+			<ul class="mobile-menu__list list">
+				<li class="mobile-menu__item">
+					<a href="#" class="mobile-menu__link mobile-menu__link--current link">
+						Студия
+					</a>
+				</li>
+				<li class="mobile-menu__item">
+					<a href="#" class="mobile-menu__link link">
+						Портфолио
+					</a>
+				</li>
+				<li class="mobile-menu__item">
+					<a href="#" class="mobile-menu__link link">
+						Контакты
+					</a>
+				</li>
+			</ul>
+
+			<div class="mobile-menu__container">
+				<ul class="mobile-menu__contacts-list list">
+					<li class="mobile-menu__contacts-item">
+						<a href="tel:+380961111111" class="mobile-menu__contacts-link link">
+						+38 096 111 11 11</a>
+					</li>
+					<li class="mobile-menu__contacts-item">
+						<a href="mailto:info@devstudio.com" class="mobile-menu__contacts-link mobile-menu__contacts-link--email link">
+						info@devstudio.com</a>
+					</li>
+				</ul>
+				<ul class="mobile-menu__social-list list">
+					<li class="mobile-menu__social-item">
+						<a href="#" class="mobile-menu__social-link link">Instagram</a>
+					</li>
+					<li class="mobile-menu__social-item">
+						<a href="#" class="mobile-menu__social-link link">Twitter</a>
+					</li>
+					<li class="mobile-menu__social-item">
+						<a href="#" class="mobile-menu__social-link link">Facebook</a>
+					</li>
+					<li class="mobile-menu__social-item">
+						<a href="#" class="mobile-menu__social-link link">Linkedin</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</header>
-	<main>
+	<!-- <main>
 		<section class="hero">
 				<div class="wrap">
 					<h1 class="hero__header">Эффективные решения для вашего бизнеса</h1>
@@ -427,8 +483,8 @@
 				<button type="submit" class="footer-form__btn modal-form__btn">Отправить</button>
 			</form>
 		</div>
-	</div>		
-
+	</div>		 -->
+	<script src="./js/mobile-menu.js"></script>
 	<script src="./js/modal.js"></script>
 </body>
 </html>
