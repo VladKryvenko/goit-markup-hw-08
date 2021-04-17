@@ -43,7 +43,7 @@ header::after{
 	position: fixed;
 	top: 0;
 	left: 50%;
-	overflow: auto;
+	overflow-y: scroll;
 	max-width: 480px;
 	width: 100vw;
 	height: 100vh;
@@ -51,6 +51,10 @@ header::after{
 	padding: 48px 24px;
 	transform: translateY(-100%) translateX(-50%);
 	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu__list{
+	margin-bottom: 302px;
 }
 
 .mobile-menu__link{
@@ -103,11 +107,6 @@ header::after{
 			margin-left: 6px;
 		}
 	}
-}
-
-.mobile-menu__container{
-	position: absolute;
-	bottom: 48px;
 }
 
 .mobile-menu__social-link{
