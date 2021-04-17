@@ -9,20 +9,18 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		padding-top: 200px;
-		padding-bottom: 200px;
+		padding: 118px 60px;
 	}
 }
 
 .hero__header{
 	font-weight: 900;
-	font-size: 44px;
-	line-height: 1.36;
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: #FFFFFF;
-	width: 696px;
+	min-width: 320px;
+	@include line-height_calc(26px, 42px);
 	margin-bottom: 30px;
 }
 
@@ -45,5 +43,24 @@
 	&:focus{
 		background: #188CE8;
 		cursor: pointer;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.hero__header{
+		width: 360px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.hero{
+		.wrap{
+			padding: 200px 60px;
+		}
+	}
+
+	.hero__header{
+		width: 696px;
+		@include line-height_calc(44px, 60px);
 	}
 }

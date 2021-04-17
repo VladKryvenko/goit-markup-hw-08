@@ -1,6 +1,6 @@
 .principles{
-	padding-top: 94px;
-	padding-bottom: 94px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .principles__header{
@@ -15,10 +15,11 @@
 	padding: 25px;
 	margin-bottom: 30px;
 	background: #F5F4FA;
+	width: 100%;
 }
 
 .principles-list__title{
-	font-weight: 700;
+	font-weight: bold;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.03em;
@@ -31,17 +32,98 @@
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: var(--secondary-text-color);
+	text-align: center;
 }
 
 .principles-list__item{
-	width: 270px;
-
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 	&:not(:last-child){
-		margin-right: 30px;
+		margin-bottom: 30px;
 	}
 }
 
 .principles-list{
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
+
+@media screen and (min-width: 768px) {
+	.principles-list{
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: baseline;
+	}
+
+	.principles-list__item{
+		width: 354px;
+		align-items: flex-start;
+	}
+
+	.principles-list__text{
+		text-align: left;
+	}
+}
+
+@media screen and (min-width: 1200px){
+	.principles{
+		padding-top: 94px;
+		padding-bottom: 94px;
+	}
+
+	.principles-list__item{
+		width: 270px;
+	}
+
+	.principles-list{
+		justify-content: unset;
+	}
+
+	.principles-list__item{
+		&:not(:last-child){
+			margin-right: 30px;
+			margin-bottom: 0;
+		}
+	}
+}
+
+// .principles-list__container{
+// 	display: flex;
+// 	align-items: center;
+// 	justify-content: center;
+// 	padding: 25px;
+// 	margin-bottom: 30px;
+// 	background: #F5F4FA;
+// }
+
+// .principles-list__title{
+// 	font-weight: 700;
+// 	font-size: 14px;
+// 	line-height: 1.14;
+// 	letter-spacing: 0.03em;
+// 	text-transform: uppercase;
+// 	margin-bottom: 10px;
+// }
+
+// .principles-list__text{
+// 	font-size: 14px;
+// 	line-height: 1.71;
+// 	letter-spacing: 0.03em;
+// 	color: var(--secondary-text-color);
+// }
+
+
+
+// 	&:not(:last-child){
+// 		margin-right: 30px;
+// 	}
+// }
+
+// .principles-list{
+// 	display: flex;
+// 	justify-content: center;
+// }
