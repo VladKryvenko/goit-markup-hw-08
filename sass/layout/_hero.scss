@@ -1,8 +1,10 @@
 .hero{
 	width: 100%;
-	max-width: 1600px;
+	max-width: 480px;
 	margin: 0 auto;
-	background-image: linear-gradient(180deg, rgba(47,48,58,0.4) 0%, rgba(47,48,58,0.4) 100%), url(../images/hero-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(180deg, rgba(47,48,58,0.4) 0%, rgba(47,48,58,0.4) 100%), url(../images/main/mobile/hero-480x400.jpg);
 
 	.wrap{
 		display: flex;
@@ -47,6 +49,11 @@
 }
 
 @media screen and (min-width: 768px) {
+
+	.hero{
+		max-width: 768px;
+		background-image: linear-gradient(180deg, rgba(47,48,58,0.4) 0%, rgba(47,48,58,0.4) 100%), url(../images/main/tablet/hero-768x400.jpg);
+	}
 	.hero__header{
 		width: 360px;
 	}
@@ -54,6 +61,8 @@
 
 @media screen and (min-width: 1200px) {
 	.hero{
+		max-width: 1600px;
+		background-image: linear-gradient(180deg, rgba(47,48,58,0.4) 0%, rgba(47,48,58,0.4) 100%), url(../images/main/desktop/hero-1600x600.jpg);
 		.wrap{
 			padding: 200px 60px;
 		}
