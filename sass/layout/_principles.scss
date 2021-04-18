@@ -62,6 +62,9 @@
 	.principles-list__item{
 		width: 354px;
 		align-items: flex-start;
+		&:nth-last-child(2){
+			margin-bottom: 0;
+		}
 	}
 
 	.principles-list__text{
@@ -90,40 +93,3 @@
 		}
 	}
 }
-
-// .principles-list__container{
-// 	display: flex;
-// 	align-items: center;
-// 	justify-content: center;
-// 	padding: 25px;
-// 	margin-bottom: 30px;
-// 	background: #F5F4FA;
-// }
-
-// .principles-list__title{
-// 	font-weight: 700;
-// 	font-size: 14px;
-// 	line-height: 1.14;
-// 	letter-spacing: 0.03em;
-// 	text-transform: uppercase;
-// 	margin-bottom: 10px;
-// }
-
-// .principles-list__text{
-// 	font-size: 14px;
-// 	line-height: 1.71;
-// 	letter-spacing: 0.03em;
-// 	color: var(--secondary-text-color);
-// }
-
-
-
-// 	&:not(:last-child){
-// 		margin-right: 30px;
-// 	}
-// }
-
-// .principles-list{
-// 	display: flex;
-// 	justify-content: center;
-// }

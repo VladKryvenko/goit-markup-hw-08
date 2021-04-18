@@ -792,6 +792,9 @@ header::after {
     width: 354px;
     align-items: flex-start;
   }
+  .principles-list__item:nth-last-child(2) {
+    margin-bottom: 0;
+  }
   .principles-list__text {
     text-align: left;
   }
@@ -1011,6 +1014,15 @@ footer {
   width: 100%;
 }
 
+@media screen and (max-width: 767px) {
+  .footer__left-part {
+    margin-bottom: 60px;
+  }
+  .footer__right-part {
+    margin-bottom: 60px;
+  }
+}
+
 .logo--bottom {
   display: block;
   color: #FFFFFF;
@@ -1035,14 +1047,6 @@ footer {
 
 .addr {
   color: #FFFFFF;
-}
-
-.footer__left-part {
-  margin-bottom: 60px;
-}
-
-.footer__right-part {
-  margin-bottom: 60px;
 }
 
 .right-part__header {
@@ -1123,11 +1127,9 @@ footer .social-container__link {
 @media screen and (min-width: 768px) {
   .footer__container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: baseline;
-  }
-  .footer__left-part {
-    margin-right: 165px;
+    margin-bottom: 60px;
   }
   .footer-form__input {
     width: 450px;
